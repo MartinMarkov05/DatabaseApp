@@ -1,0 +1,11 @@
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/bin/Debug/net8.0/DataBase.deps.json
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/bin/Debug/net8.0/DataBase.dll
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/bin/Debug/net8.0/DataBase.pdb
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/obj/Debug/net8.0/DataBase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/obj/Debug/net8.0/DataBase.AssemblyInfoInputs.cache
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/obj/Debug/net8.0/DataBase.AssemblyInfo.cs
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/obj/Debug/net8.0/DataBase.csproj.CoreCompileInputs.cache
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/obj/Debug/net8.0/DataBase.dll
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/obj/Debug/net8.0/refint/DataBase.dll
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/obj/Debug/net8.0/DataBase.pdb
+/Users/martinmarkov/Projects/DatabaseApp1/DataBase/DataBase/obj/Debug/net8.0/ref/DataBase.dll
