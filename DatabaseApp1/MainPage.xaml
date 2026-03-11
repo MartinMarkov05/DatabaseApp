@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DatabaseApp1.MainPage">
+
+    <Grid ColumnDefinitions="2*,3*" RowDefinitions="Auto,*" Padding="10" ColumnSpacing="10">
+    
+    <Label
+        Grid.Row="0"
+        Grid.Column="0"
+        Text="Table browser"
+        FontSize="18"
+        FontAttributes="Bold"
+        Margin="0,0,0,5" />
+
+    <ScrollView 
+        Grid.Row="1" 
+        Grid.Column="0" 
+        BackgroundColor="White"
+        VerticalScrollBarVisibility="Always"> 
+        
+        <VerticalStackLayout 
+            x:Name="TablesStack" 
+            Padding="5"  
+            Spacing="5"> 
+        </VerticalStackLayout>
+    </ScrollView>
+
+    <VerticalStackLayout Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Spacing="10" Padding="10" BackgroundColor="#FFCFCFCF">
+        <Entry x:Name="CommandEntry" Placeholder="Enter command..." TextColor="Black" BackgroundColor="White" ClearButtonVisibility="WhileEditing"/>
+        <Button Text="Execute" x:Name="ExecuteBtn" BackgroundColor="#FF5100FF" TextColor="White" Clicked="OnExecuteClicked"/>
+        <ScrollView BackgroundColor="#FFE1E1E2" HorizontalScrollBarVisibility="Always" HeightRequest="400">
+            <Grid x:Name="ResultGrid" Padding="5" RowSpacing="1" ColumnSpacing="1" BackgroundColor="White"/>
+        </ScrollView>
+    </VerticalStackLayout>
+</Grid>
+
+</ContentPage>
